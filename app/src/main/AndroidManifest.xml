@@ -20,6 +20,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".thread.ThreadActivity"/>
+        <activity android:name=".service.ServiceActivity"/>
+
+        <service android:name=".service.LocalService"/>
+
     </application>
 
 </manifest>

@@ -5,13 +5,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/thread_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="12dp"
         android:text="Thread" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/service_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Service" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/share_fragment_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Communicate other fragments" />
 </LinearLayout>
